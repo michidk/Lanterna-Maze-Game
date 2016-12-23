@@ -3,7 +3,7 @@
 The task was to create a top-down maze game using [Google's Lanterna library](https://code.google.com/archive/p/lanterna/) in Java.
 The basic gameplay features were prescribed.
 
-Additionally I used the [Lombok](https://projectlombok.org/) library and [Maven](https://maven.apache.org/)
+Additionally I used [Lombok](https://projectlombok.org/) and [Maven](https://maven.apache.org/).
 
 Notes:
 - to test health-packs, load the level_small_healthpack-level
