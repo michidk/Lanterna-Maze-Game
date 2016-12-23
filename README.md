@@ -7,13 +7,13 @@ Additionally I used [Lombok](https://projectlombok.org/) and [Maven](https://mav
 
 Notes:
 - to test health-packs, load the level_small_healthpack-level
-- the enemys are moving randomly util they reached a distance of 15 units to the player. If the distance is equal or lower to 15 the enemy use pathfinding ([A* search algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm)) to follow you.
-- if you are experiencing lags, then try to turn down the AStar.MAX_SEARCH_DEPTH value
+- the enemys are moving randomly util they reached a distance of 15 units to the player. If the distance is equal or lower to 15 the enemy will use pathfinding ([A* search algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm)) to follow the player.
+- if you are experiencing lags, try to turn down the AStar.MAX_SEARCH_DEPTH value
 
 Features beside the minimum requirements:
-- extensible and highly compatible math api (position, bounds, size, direction usw) [all compatible with the lanterna ones]
+- extensible and highly compatible math api (position, bounds, size, direction usw) [all of them compatible with the lanterna ones]
 - object orientated entity system
-- advanced gameloop with target framerate, deltatime etc.
+- advanced game-loop with target framerate, deltatime etc.
 - [A* pathfinding](https://en.wikipedia.org/wiki/A*_search_algorithm)
 
 Additional gameplay features:
